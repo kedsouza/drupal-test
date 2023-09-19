@@ -494,7 +494,7 @@ $settings['update_free_access'] = FALSE;
  * must exist and be writable by Drupal. This directory must be relative to
  * the Drupal installation directory and be accessible over the web.
  */
- $settings['file_assets_path'] = '/fileshare/sites/default/files';
+# $settings['file_assets_path'] = '/fileshare/sites/default/files';
 
 /**
  * Public file base URL:
@@ -516,7 +516,7 @@ $settings['update_free_access'] = FALSE;
  * must exist and be writable by Drupal. This directory must be relative to
  * the Drupal installation directory and be accessible over the web.
  */
-# $settings['file_public_path'] = 'sites/default/files';
+ $settings['file_public_path'] = '/fileshare/sites/default/files';
 
 /**
  * Additional public file schemes:
