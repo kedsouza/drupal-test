@@ -516,7 +516,7 @@ $settings['update_free_access'] = FALSE;
  * must exist and be writable by Drupal. This directory must be relative to
  * the Drupal installation directory and be accessible over the web.
  */
- $settings['file_public_path'] = '/fileshare/sites/default/files';
+ #$settings['file_public_path'] = '/fileshare/sites/default/files';
 
 /**
  * Additional public file schemes:
@@ -861,7 +861,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => '/fileshare/db/.ht.sqlite',
+  'database' => 'sites/default/files/.ht.sqlite',
   'prefix' => '',
   'namespace' => 'Drupal\\sqlite\\Driver\\Database\\sqlite',
   'driver' => 'sqlite',
