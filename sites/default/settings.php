@@ -861,7 +861,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'sites/default/files/.ht.sqlite',
+  'database' => '/fileshare/db/.ht.sqlite',
   'prefix' => '',
   'namespace' => 'Drupal\\sqlite\\Driver\\Database\\sqlite',
   'driver' => 'sqlite',
