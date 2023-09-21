@@ -494,7 +494,7 @@ $settings['update_free_access'] = FALSE;
  * must exist and be writable by Drupal. This directory must be relative to
  * the Drupal installation directory and be accessible over the web.
  */
- $settings['file_assets_path'] = '/fileshare-mount/sites/default/files';
+ #$settings['file_assets_path'] = '/fileshare-mount/sites/default/files';
 
 /**
  * Public file base URL:
@@ -507,7 +507,7 @@ $settings['update_free_access'] = FALSE;
  * security by serving user-uploaded files from a different domain or subdomain
  * pointing to the same server. Do not include a trailing slash.
  */
-$settings['file_public_base_url'] = 'https://kedsouza-php.azurewebsites.net/sites/default/files';
+#$settings['file_public_base_url'] = 'https://kedsouza-php.azurewebsites.net/sites/default/files';
 
 /**
  * Public file path:
@@ -516,7 +516,7 @@ $settings['file_public_base_url'] = 'https://kedsouza-php.azurewebsites.net/site
  * must exist and be writable by Drupal. This directory must be relative to
  * the Drupal installation directory and be accessible over the web.
  */
- $settings['file_public_path'] = '/fileshare-mount/sites/default/files';
+ #$settings['file_public_path'] = '/fileshare-mount/sites/default/files';
 
 /**
  * Additional public file schemes:
